@@ -179,28 +179,3 @@ class Scanner:
         return texto.encode() in response.content
 
 
-#target_url = "http://br.phptherightway.com/"
-#target_url ="http://testphp.vulnweb.com/"
-#target_url = "https://www.netfive.com.br/"
-#target_url = "http://testaspnet.vulnweb.com/"
-#target_url = "https://www.juniorandremarostega.com.br/"
-#links_to_ignore = [""]
-#data_dict = {"username": "admin", "password": "password", "Login": "submit"}
-
-#vuln_scanner = Scanner(target_url, links_to_ignore)
-# vuln_scanner.session.post("http://192.168.44.101/dvwa/login.php",data=data_dict)
-
-#vuln_scanner.crawl()
-#vuln_scanner.run_scanner()
-
-
-#URL = 'http://testphp.vulnweb.com/'
-
-# request the page from server
-#page = requests.get(URL)
-
-# parse the contentes of the page
-#soup = BeautifulSoup(page.content, "html.parser")
-
-# encoded method
-#print("Encoded method :", soup.original_encoding)
